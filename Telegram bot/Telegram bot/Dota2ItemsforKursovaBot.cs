@@ -9,7 +9,7 @@ namespace TelegramBot
 {
     class TgBot
     {
-        private static readonly TelegramBotClient Bot = new TelegramBotClient("7014750616:AAFKuwsnjwmlhv5oC4H05R_VsAI1g1sdImM");
+        private static readonly TelegramBotClient Bot = new TelegramBotClient("token_for_bot");
         private static readonly HttpClient HttpClient = new HttpClient();
 
         static async Task Main(string[] args)
